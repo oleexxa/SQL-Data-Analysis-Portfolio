@@ -1,26 +1,37 @@
-# SQL-Data-Analysis-Portfolio
-A collection of SQL projects focused on business data analysis and data cleaning.
+# Pet Store Sales Analysis – SQL Project
 
-# Pet Store Sales Analysis (SQL)
+Retail data analysis of a pet store with strong focus on the **premium/luxury segment**.
 
-## Project Overview
-This project demonstrates my ability to process and analyze retail data using SQL. I focus on extracting actionable business insights from a database of pet store transactions.
+This project demonstrates:
+- relational database design  
+- data population and cleaning  
+- business-oriented SQL querying  
+- extraction of actionable insights for inventory & marketing decisions
 
-## Objectives
-* Create and structure a relational database table.
-* Filter products based on specific business criteria (pricing, categories).
-* Identify high-value inventory items for marketing purposes.
+## Project Goal
+Identify and deeply analyze the **premium segment** (mainly luxury accessories priced > 100 PLN), calculate tied-up capital, average prices, category distribution, and highlight highest-value items for targeted marketing and inventory management.
 
-## SQL Techniques Used
-* **Data Definition (DDL):** `CREATE TABLE` to define the schema.
-* **Data Manipulation (DML):** `INSERT INTO` to populate the dataset.
-* **Data Querying:** `SELECT`, `WHERE` clauses, and logical operators (`AND`, `>`).
+## Key Business Questions Answered
+- Which categories contain the most premium products?
+- What is the total value of capital locked in luxury inventory?
+- What are the average prices in the premium segment by category?
+- Which specific products represent the highest value / marketing potential?
 
-## Key Insights
-By running these queries, I identified:
-1. **Premium Segment:** Products in the 'Accessories' category priced above 100 PLN.
-2. **Stock Distribution:** The balance between 'Food' and 'Accessories' in the inventory.
+## SQL Techniques Showcased
+- DDL: `CREATE TABLE`
+- DML: `INSERT INTO`
+- Filtering: `WHERE` comparison operators
+- Aggregation: `COUNT()`, `SUM()`, `AVG()`
+- Grouping: `GROUP BY`
+- Formatting: `ROUND(..., 2)` for clean financial numbers
 
-## How to Run
-1. Execute `01_create_tables.sql` first to set up the database schema and populate it with data.
-2. Execute `02_data_analysis.sql` to run the business queries and see the results.
+## How to Run the Project
+
+1. Open any SQL client that supports standard SQL  
+   (MySQL, PostgreSQL, SQLite, SQL Server, DBeaver, pgAdmin, etc.)
+
+2. Execute **`01_create_tables.sql`** first  
+   → creates the table and populates it with sample pet store data
+
+3. Run **`02_data_analysis.sql`**  
+   → executes all analytical queries and displays key business insights
