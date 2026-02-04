@@ -17,6 +17,22 @@ Identify and deeply analyze the **premium segment** (mainly luxury accessories p
 - What are the average prices in the premium segment by category?
 - Which specific products represent the highest value / marketing potential?
 
+## Key Insights & Business Recommendations
+1. Identify
+Insight: The analysis shows that the Housing and Accessories category holds the highest total value of inventory.
+
+Recommendation: Prioritize insurance and security for this department, as it represents the largest portion of tied-up capital.
+
+2. Premium Market Gaps
+Insight: Certain categories like Food have a very low count of premium products.
+
+Recommendation: Explore sourcing high-end, organic, or specialized brands for these categories to attract "big spender" customers who are currently underserved.
+
+3. Pricing Strategy
+Insight: The average price in the premium segment is 196.67 PLN for Accessories and 315.00 PLN for Housing.
+
+Recommendation: Use this average as a benchmark for pricing new luxury items. Items priced significantly above this average should be supported by a dedicated premium marketing campaign.
+
 ## SQL Techniques Showcased
 - DDL: `CREATE TABLE`
 - DML: `INSERT INTO`
