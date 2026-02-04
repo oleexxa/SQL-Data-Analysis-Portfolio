@@ -22,5 +22,5 @@ By running these queries, I identified:
 2. **Stock Distribution:** The balance between 'Food' and 'Accessories' in the inventory.
 
 ## How to Run
-1. Copy the code from `project1.sql`.
-2. Run it in any SQL environment (e.g., DBeaver, MySQL, or SQLite).
+1. Execute `01_create_tables.sql` first to set up the database schema and populate it with data.
+2. Execute `02_data_analysis.sql` to run the business queries and see the results.
