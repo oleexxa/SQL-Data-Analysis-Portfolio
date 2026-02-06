@@ -30,4 +30,4 @@ The dataset used in this project is the **Brazilian E-Commerce Public Dataset by
 Due to file size limitations, the raw CSV files are not included in this repository.
 
 ---
-*Last update: February 2026*
+*Last update: 06.02.2026
