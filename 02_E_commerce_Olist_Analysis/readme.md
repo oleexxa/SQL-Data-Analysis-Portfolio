@@ -41,6 +41,3 @@ The dataset used is the **Brazilian E-Commerce Public Dataset by Olist**, availa
 
 ---
 *Last update: 08.02.2026*
-
----
-*Last update: 08.02.2026*
