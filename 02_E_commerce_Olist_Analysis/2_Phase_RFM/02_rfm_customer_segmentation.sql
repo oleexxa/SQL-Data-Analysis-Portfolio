@@ -69,4 +69,5 @@ select
 	,round(100.0 * sum(total_spent) / sum(sum(total_spent)) over(), 2) 	as revenue_share_pct
 from final_segments 	
 group by segment_name 
+
 order by total_revenue desc;
