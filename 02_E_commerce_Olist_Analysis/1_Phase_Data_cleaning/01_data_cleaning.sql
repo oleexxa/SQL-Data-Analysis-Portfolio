@@ -112,3 +112,4 @@ FROM products_final
 WHERE product_category_name IS NULL;
 
 
+
