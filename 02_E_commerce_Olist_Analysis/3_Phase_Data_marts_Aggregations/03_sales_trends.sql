@@ -14,3 +14,4 @@ create table sales_trends as
 	group by 1, 2
 	
 select * from sales_trends
+
