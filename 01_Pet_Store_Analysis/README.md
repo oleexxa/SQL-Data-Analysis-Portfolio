@@ -41,17 +41,6 @@ Recommendation: Use this average as a benchmark for pricing new luxury items. It
 - Grouping: `GROUP BY`
 - Formatting: `ROUND(..., 2)` for clean financial numbers
 
-## How to Run the Project
-
-1. Open any SQL client that supports standard SQL  
-   (MySQL, PostgreSQL, SQLite, SQL Server, DBeaver, pgAdmin, etc.)
-
-2. Execute **`01_create_tables.sql`** first  
-   → creates the table and populates it with sample pet store data
-
-3. Run **`02_data_analysis.sql`**  
-   → executes all analytical queries and displays key business insights
-
 ## Future Development
 This is my **foundational SQL project**. My roadmap for future projects includes:
 * **Complex Data Schemas:** Moving from single-table analysis to multi-table databases using `JOINs`.
